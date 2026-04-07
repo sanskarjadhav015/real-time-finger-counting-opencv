@@ -40,3 +40,12 @@ Sign-Language-recognition-main/
 │
 └── code/
     └── model_for_gesture.py   ← Real-time finger counting script
+## 📸 Finger Counting Results
+
+| Count | Output |
+|---|---|
+| 1 | ![](assets/finger1.png) |
+| 2 | ![](assets/finger2.png) |
+| 3 | ![](assets/finger3.png) |
+| 4 | ![](assets/finger4.png) |
+| 5 | ![](assets/finger5.png) |
