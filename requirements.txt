@@ -1,0 +1,27 @@
+# ══════════════════════════════════════════════════════════════════════════════
+# Sign Language Recognition — pip requirements
+# ══════════════════════════════════════════════════════════════════════════════
+#
+# Install with:
+#   pip install -r requirements.txt
+#
+# Python 3.10 – 3.13 compatible
+# TensorFlow 2.15+ (latest stable as of 2025)
+# ──────────────────────────────────────────────────────────────────────────────
+
+# Core ML
+tensorflow>=2.15.0          # includes keras 3 built-in
+numpy>=1.24.0
+
+# Computer vision
+opencv-python>=4.8.0
+
+# Dataset download from Kaggle
+kagglehub>=0.2.0            # pip install kagglehub
+
+# Plotting
+matplotlib>=3.7.0
+
+# ── Optional but recommended ──────────────────────────────────────────────────
+# scikit-learn>=1.3.0       # for confusion matrix / classification report
+# pillow>=10.0.0            # ImageDataGenerator uses PIL under the hood
