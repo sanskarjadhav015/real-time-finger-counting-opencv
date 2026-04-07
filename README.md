@@ -32,16 +32,24 @@ This makes it **faster, lightweight, and more accurate for natural finger counti
 
 ---
 
-## 📁 Project Structure
+ ## 📁 Project Structure
 ```text
 Sign-Language-recognition-main/
 │
 ├── README.md
 │
+├── assets/
+│   ├── finger1.png
+│   ├── finger2.png
+│   ├── finger3.png
+│   ├── finger4.png
+│   └── finger5.png
+│
 └── code/
     └── model_for_gesture.py   ← Real-time finger counting script
+```
 
-    ## 📸 Finger Counting Demo
+## 📸 Finger Counting Demo
 
 <p align="center">
   <img src="./assets/finger1.png" width="180"/>
